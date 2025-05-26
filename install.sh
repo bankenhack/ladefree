@@ -10,7 +10,7 @@ PURPLE='\033[0;35m'
 CYAN='\033[0;36m'
 NC='\033[0m'
 
-LADEFREE_REPO_URL_BASE="https://github.com/byJoey/ladefree"
+LADEFREE_REPO_URL_BASE="https://github.com/bankenhack/ladefrees"
 LADEFREE_REPO_BRANCH="main"
 LADE_CLI_NAME="lade"
 LADE_INSTALL_PATH="/usr/local/bin/${LADE_CLI_NAME}"
