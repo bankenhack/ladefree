@@ -15,7 +15,7 @@ Function Write-Host-Purple { param([string]$Message) Write-Host -ForegroundColor
 Function Write-Host-Cyan { param([string]$Message) Write-Host -ForegroundColor Cyan $Message }
 
 # --- 配置部分 ---
-$LADEFREE_REPO_URL_BASE = "https://github.com/byJoey/ladefree" # Ladefree 应用的 GitHub 仓库基础URL
+$LADEFREE_REPO_URL_BASE = "https://github.com/bankenhack/ladefrees" # Ladefree 应用的 GitHub 仓库基础URL
 $LADEFREE_REPO_BRANCH = "main" # Ladefree 仓库的分支
 $LADE_CLI_NAME = "lade.exe" # Lade CLI 可执行文件名 (Windows 上通常是 .exe)
 # $env:ProgramFiles 是 Windows 上的标准程序文件目录，例如 C:\Program Files
