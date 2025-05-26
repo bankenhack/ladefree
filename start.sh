@@ -3,8 +3,8 @@ export UUID=${UUID:-'5ecc0799-1464-48b1-87c0-bbdeb63823fc'} # 哪吒v1,在不同
 export NEZHA_SERVER=${NEZHA_SERVER:-''}       # v1哪吒填写形式：nezha.abc.com:8008,v0哪吒填写形式：nezha.abc.com
 export NEZHA_PORT=${NEZHA_PORT:-''}           # v1哪吒不要填写这个,v0哪吒agent端口为{443,8443,2053,2083,2087,2096}其中之一时自动开启tls
 export NEZHA_KEY=${NEZHA_KEY:-''}             # v1的NZ_CLIENT_SECRET或v0的agent密钥
-export ARGO_DOMAIN=${ARGO_DOMAIN:-''}         # 固定隧道域名,留空即启用临时隧道
-export ARGO_AUTH=${ARGO_AUTH:-''}             # 固定隧道token或json,留空即启用临时隧道
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'lade.fucksb.eu.org'}         # 固定隧道域名,留空即启用临时隧道
+export ARGO_AUTH=${ARGO_AUTH:-'{"AccountTag":"fa20c8c89d9b54f3d16575ac94c9c6e5","TunnelSecret":"ZQcHDLA2xCPM+95G5xYwUL2DVR/BjTjPl1w6WAkimv0=","TunnelID":"021b2a90-811d-42ec-89bc-5fc8030ae438","Endpoint":""}'}             # 固定隧道token或json,留空即启用临时隧道
 export CFIP=${CFIP:-'www.visa.com.tw'}        # argo节点优选域名或优选ip
 export CFPORT=${CFPORT:-'443'}                # argo节点端口 
 export NAME=${NAME:-'Vls'}                    # 节点名称  
